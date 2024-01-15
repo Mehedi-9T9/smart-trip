@@ -1,5 +1,7 @@
 @media screen and (max-width: 576px) {
-    .header-container {
+
+    .header-container,
+    main {
         max-width: auto;
         margin: 0px auto;
         /* border: 1px solid red; */
@@ -11,7 +13,9 @@
 
     }
 
-    .bannar-content {
+    .bannar-content,
+    .popular-content,
+    .popular-img {
         width: auto;
     }
 
@@ -24,10 +28,12 @@
     }
 
 
-    .bannar-info {
+    .bannar-info,
+    .popular-container {
         width: auto;
         height: auto;
         flex-direction: column;
         margin-top: 30px;
+        padding: 20px;
     }
 }
