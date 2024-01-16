@@ -20,10 +20,8 @@
 
 .similar-button {
     color: #FFF;
-
     font-size: 20px;
     font-weight: 800;
-
     border-radius: 8px;
     background: #FF5400;
     padding: 13px 35px;
@@ -32,25 +30,62 @@
 
 .similar-heading {
     color: #131318;
-
     font-size: 40px;
     font-weight: 800;
 }
 
 .similar-second-heading {
     color: #131318;
-
     font-size: 24px;
     font-weight: 800;
 }
 
 .similar-cart-price {
     color: #FF5400;
-
     font-size: 20px;
     font-weight: 800;
     margin: 20px 0px;
 }
+
+/* Navbar Section Stylye  */
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 0px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo span,
+footer span {
+    color: #FF5400;
+}
+
+.menu a {
+    color: #424247;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 45px;
+    text-decoration: none;
+}
+
+.mega-menu div {
+    width: 50px;
+    height: 6px;
+    background-color: #FF5400;
+    margin-top: 5px;
+    border-radius: 8px;
+    display: none;
+}
+
+
+
 
 
 
@@ -58,7 +93,6 @@
 .header-container {
     max-width: 1170px;
     margin: 0px auto;
-    /* border: 1px solid red; */
 }
 
 /* Bannar Section Style Start  */
@@ -78,13 +112,11 @@
 
 .bannar-content {
     width: 675px;
-    /* border: 1px solid red; */
     text-align: center;
 }
 
 .bannar-content h2 {
     color: #FFF;
-
     font-size: 64px;
     font-weight: 800;
 }
@@ -113,11 +145,12 @@
 }
 
 .bannar-info-btn i {
-    /* font: 40px */
     margin-left: 30px;
 }
 
 /* Bannar Section Style End */
+
+/* Popular Section Style Start */
 main {
     max-width: 1170px;
     margin: 0px auto;
@@ -174,14 +207,15 @@ main {
     width: 100%;
 }
 
-/* Destination Start  */
+/* Popular Section Style End  */
+
+/* Destination Section Style Start  */
 .destination-container {}
 
 .destination-content {
     width: 643px;
     margin: 0px auto;
     text-align: center;
-    /* border: 1px solid red; */
 }
 
 .destination-img {
@@ -232,7 +266,21 @@ main {
     height: 300px;
 }
 
-/* choice section  */
+.accept {
+    position: relative;
+}
+
+.send {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Destination Section Style End  */
+
+/* Choice Section Style Start */
 .choice-container {
     margin-top: 100px;
 }
@@ -258,7 +306,9 @@ main {
 
 }
 
-/* discount section  */
+/* Choice Section Style End  */
+
+/* Discount Section Style Start */
 .discount-container {
     margin-top: 100px;
 }
@@ -290,7 +340,6 @@ main {
     margin-right: 50px;
 }
 
-/* ssssssss  */
 .discount-offer-2 {
     background-image: url("../Images/Group 40.png");
     background-repeat: no-repeat;
@@ -313,7 +362,9 @@ main {
     border-radius: 16px;
 }
 
-/* Package Section Start  */
+/* Discount Section Style End  */
+
+/* Package Section Style Start  */
 .package-container {
     margin-top: 50px;
 }
@@ -347,6 +398,7 @@ main {
     width: 100%;
 }
 
+/* Package Section Style End  */
 
 /* Contract Section Start  */
 .contract-container {
@@ -371,6 +423,17 @@ main {
     border-radius: 8px;
 }
 
+.contract-form button {
+    background-color: #FF5400;
+    border: 0;
+    width: 100%;
+    padding: 20px 14px;
+    color: #fff;
+    border-radius: 10px;
+
+}
+
+
 
 .contract-img {
     width: 672px;
@@ -394,4 +457,29 @@ main {
     right: 0px;
     bottom: 90px;
 
+}
+
+/* Contract Section End  */
+footer {
+    text-align: center;
+    margin-top: 100px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 50px;
+    margin: 0px auto;
+}
+
+.footer-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+
+
+.icons-container i {
+    margin-left: 20px;
+    font-size: 24px;
+    margin-top: 30px;
 }

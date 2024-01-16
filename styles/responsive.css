@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 576px) {
 
     .header-container,
     main {
@@ -95,6 +95,23 @@
         position: absolute;
         right: 0px;
         bottom: 60px;
+    }
+
+    /* Navbar style  */
+    .menu {
+        display: none;
+    }
+
+    .mega-menu div {
+        display: block;
+    }
+
+    .nav-content {
+        padding: 10px;
+    }
+
+    footer {
+        margin: 20px;
     }
 
 
