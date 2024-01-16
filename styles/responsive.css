@@ -29,11 +29,27 @@
 
 
     .bannar-info,
-    .popular-container {
+    .popular-container,
+    .destination-content,
+    .choice-cart-container {
         width: auto;
         height: auto;
         flex-direction: column;
         margin-top: 30px;
+        padding: 20px;
+    }
+
+    .maldives,
+    .indonesia,
+    .srilanka,
+    .america,
+    .kashmir,
+    .bd,
+    .bandorban,
+    .choice-cart-items,
+    .choice-content {
+        width: 100%;
+        height: 100%;
         padding: 20px;
     }
 }
