@@ -44,6 +44,14 @@
     font-weight: 800;
 }
 
+.similar-cart-price {
+    color: #FF5400;
+
+    font-size: 20px;
+    font-weight: 800;
+    margin: 20px 0px;
+}
+
 
 
 
@@ -246,4 +254,59 @@ main {
     padding: 20px;
     border-radius: 18px;
 
+}
+
+/* discount section  */
+.discount-container {
+    margin-top: 100px;
+}
+
+.discount-title {}
+
+.discount-offer-1 {
+    background-image: url("../Images/Group 39.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+
+}
+
+.discount-offer-1-cart {
+    width: 550px;
+    height: 380px;
+    background-color: #ffffff5f;
+
+
+    padding: 50px;
+    border-radius: 16px;
+    margin-right: 50px;
+}
+
+/* ssssssss  */
+.discount-offer-2 {
+    background-image: url("../Images/Group 40.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.discount-offer-1-cart-2 {
+    width: 550px;
+    height: 380px;
+    background-color: #ffffff5f;
+    margin-left: 50px;
+    padding: 50px;
+    border-radius: 16px;
 }
