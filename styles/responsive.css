@@ -31,7 +31,8 @@
     .bannar-info,
     .popular-container,
     .destination-content,
-    .choice-cart-container {
+    .choice-cart-container,
+    .package-content {
         width: auto;
         height: auto;
         flex-direction: column;
@@ -52,48 +53,35 @@
         height: 100%;
         padding: 20px;
     }
-}
 
-/* discount section  */
-.discount-title {
-    text-align: center;
-}
+    /* discount Section Responsive  */
 
-/* discount-offer- */
+    .discount-title {
+        text-align: center;
+    }
 
-.discount-offer-1 {
-    height: auto;
-    width: auto;
-    padding: 50px 10px 10px 10px;
-    margin: 20px;
+    .discount-offer-1,
+    .discount-offer-2,
+    .package-content {
+        height: auto;
+        padding: 20px;
+        margin: 20px;
+        justify-content: center;
+        align-items: center;
 
-}
+    }
 
-.discount-offer-1-cart-2,
-.discount-offer-1,
-.discount-offer-2 {
-    width: auto;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-}
+    .discount-offer-1-cart,
+    .discount-offer-1-cart-2,
+    .package-text,
+    .package-img {
+        height: auto;
+        width: auto;
+        margin: 0px;
 
-.discount-offer-1-cart {
-    padding: 20px;
-    height: auto;
-    width: auto;
-}
+    }
 
-.discount-offer-2 {
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
-    padding: 20px;
-}
-
-.discount-offer-1-cart-2 {
-    justify-content: center;
-    align-items: center;
-    margin: 0px;
-    padding: 20px;
+    .package-img {
+        margin-top: 50px;
+    }
 }

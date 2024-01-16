@@ -147,7 +147,8 @@ main {
     margin-top: 24px;
 }
 
-.popular-content li {
+.popular-content li,
+.package-text li {
     color: rgba(19, 19, 24, 0.70);
 
     font-family: Mulish;
@@ -159,7 +160,8 @@ main {
     /* 162.5% */
 }
 
-.popular-content button {
+.popular-content button,
+.package-text button {
     margin-top: 30px;
 }
 
@@ -309,4 +311,38 @@ main {
     margin-left: 50px;
     padding: 50px;
     border-radius: 16px;
+}
+
+/* Package Section Start  */
+.package-container {
+    margin-top: 50px;
+}
+
+.package-title {
+    text-align: center;
+}
+
+.package-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+
+}
+
+.package-text {
+    width: 50%;
+}
+
+.package-img {
+    width: 50%;
+    height: 442px;
+    background-color: rgba(0, 0, 255, 0.403);
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.package-img video {
+    height: 100%;
+    width: 100%;
 }
