@@ -346,3 +346,52 @@ main {
     height: 100%;
     width: 100%;
 }
+
+
+/* Contract Section Start  */
+.contract-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.contract-form {
+    width: 450px;
+    height: 422px;
+    border: 1px solid #FF5400;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.contract-form input {
+    width: 100%;
+    padding: 20px 14px;
+    margin: 16px 0px;
+    border-radius: 8px;
+}
+
+
+.contract-img {
+    width: 672px;
+    height: 422px;
+    position: relative;
+}
+
+.contract-badge {
+    width: 324px;
+    height: 120px;
+    background-color: #FF5400;
+
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    transform: rotate(-40deg);
+    position: absolute;
+    right: 0px;
+    bottom: 90px;
+
+}

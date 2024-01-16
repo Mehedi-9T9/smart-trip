@@ -1,4 +1,4 @@
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
 
     .header-container,
     main {
@@ -32,7 +32,8 @@
     .popular-container,
     .destination-content,
     .choice-cart-container,
-    .package-content {
+    .package-content,
+    .contract-container {
         width: auto;
         height: auto;
         flex-direction: column;
@@ -74,14 +75,27 @@
     .discount-offer-1-cart,
     .discount-offer-1-cart-2,
     .package-text,
-    .package-img {
+    .package-img,
+    .contract-form,
+    .contract-img {
         height: auto;
         width: auto;
         margin: 0px;
 
     }
 
-    .package-img {
+    .package-img,
+    .contract-img {
         margin-top: 50px;
     }
+
+    .contract-badge {
+        width: 214px;
+        height: 79px;
+        position: absolute;
+        right: 0px;
+        bottom: 60px;
+    }
+
+
 }
