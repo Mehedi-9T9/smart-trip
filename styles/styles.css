@@ -121,6 +121,10 @@ footer span {
     font-weight: 800;
 }
 
+.bannar-content p {
+    color: #FFF;
+}
+
 .bannar-info {
     width: 800px;
     height: 84px;
@@ -360,6 +364,17 @@ main {
     margin-left: 50px;
     padding: 50px;
     border-radius: 16px;
+}
+
+.location span {
+    margin-right: 25px;
+    color: #5A5A5D;
+
+}
+
+.location span i {
+    color: #FF5400;
+    margin-bottom: 30px;
 }
 
 /* Discount Section Style End  */
